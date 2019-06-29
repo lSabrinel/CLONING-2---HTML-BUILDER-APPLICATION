@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="v1.css">
+    <title> HTML Builder </title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class=" b d1">Code</div>
+            <div class=" b d2">Most used elements</div>
+            <div class=" b d3">Preview</div>
+        </header>
+
+        <article id="main">
+            <!-- <div id="te" onclick="test()">Testing</div> -->
+            <!-- <div id='parag'></div> -->
+            <div id="Pl" onclick="changeP()">
+                <p> &lt;p&gt; Netflix's first original German-language show, Dark is the supernatural
+                    time-travel crime mystery series you didn't realize you were missing. Set in the dreary town of
+                    Winden,
+                    Germany, it sees the lives and relationships of four families thrown into disarray following the
+                    disappearance of two young children. &lt;/p&gt;</p>
+            </div>
+        </article>
+
+        <aside class="aside" id="aside-1">
+            <ul>
+                <li><input type="button" value="Titre" onclick="addT()"></li>
+                <li> <input type="button" value="Paragraphe" onclick="addP()"></li>
+                <li> <input type="button" value="Liste ordonnée" onclick="addOl()"></li>
+                <li> <input type="button" value="Liste non ordonnée" onclick="addUl()"></li>
+                <li><input type="button" value="Image " onclick="addImg()"></li>
+                <li> <input type="button" value="Vidéo" onclick="addVid()"></li>
+                <li> <input type="button" value="Audio" onclick="addAud()"></li>
+                <li> <input type="button" value="Lien" onclick="addLn()"></li>
+            </ul>
+        </aside>
+
+        <aside class="aside " id="aside-2">
+            <!-- <div id="te2"></div> -->
+            <div id="Pr">
+                <p>Netflix's first original German-language show, Dark is the supernatural
+                    time-travel crime mystery series you didn't realize you were missing. Set in the dreary town of
+                    Winden,
+                    Germany, it sees the lives and relationships of four families thrown into disarray following the
+                    disappearance of two young children.</p>
+            </div>
+        </aside>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="v1.js"></script>
+</body>
+
+</html>
